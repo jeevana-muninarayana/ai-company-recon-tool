@@ -1,6 +1,6 @@
 import socket
 
-def scan_ports(ip, ports=[80, 443, 22, 21, 25]):
+def scan_ports(ip, ports=[80, 443, 22, 21, 25, 3389]):
     open_ports = []
     for port in ports:
         sock = socket.socket()
